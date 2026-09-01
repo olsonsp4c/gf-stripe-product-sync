@@ -1,11 +1,13 @@
-# Dependencies
+# Production Stripe SDK - built fresh via `composer install --no-dev`
+# in the WP.org deploy workflow, never committed here.
 /vendor/
+
+# Dependencies
 /node_modules/
 
-# Local env / build
+# Local env
 .env
 *.log
-composer.lock
 
 # Test artifacts
 /tests/tmp/
