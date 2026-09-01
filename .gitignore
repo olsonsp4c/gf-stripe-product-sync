@@ -1,0 +1,18 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Local env / build
+.env
+*.log
+composer.lock
+
+# Test artifacts
+/tests/tmp/
+/tests/wp-*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
